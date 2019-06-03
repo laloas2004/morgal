@@ -60,6 +60,7 @@ $contact_form_label           = get_theme_mod( 'business_one_page_contact_form_l
                     if( $contact_section_phone ) echo '<li class="phone">' . esc_html( $contact_section_phone ) . '</li>';
                     if( $contact_section_fax ) echo '<li class="fax">' . esc_html( $contact_section_fax ) . '</li>';
                     if( $contact_section_email ) echo '<li class="email"><a href="mailto:' . esc_attr( $contact_section_email ) . '">' . esc_html( $contact_section_email ) . '</a></li>';
+                    if( $contact_section_email ) echo '<li class="email"><a href="mailto:' . esc_attr( $contact_section_email ) . '"> verogaza@grupomorgal.com </a></li>';
                 ?>
 			</ul>
 			
